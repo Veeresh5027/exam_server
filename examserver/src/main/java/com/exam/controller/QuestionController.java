@@ -31,7 +31,7 @@ public class QuestionController {
     }
 
     //update question
-    @PutMapping("/")
+    @PutMapping("/")    
     public ResponseEntity<Question> updateQuestion(@RequestBody Question question) {
         return ResponseEntity.ok(this.questionService.updateQuestion(question));
     }
