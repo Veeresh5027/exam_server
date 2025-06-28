@@ -63,7 +63,7 @@ public class QuestionController {
 
     //delete question
     @DeleteMapping("/{quesId}")
-    public void delete(@PathVariable("quesId") Long quesId) {
+        public void delete(@PathVariable("quesId") Long quesId) {
         this.questionService.deleteQuestion(quesId);
     }
 
