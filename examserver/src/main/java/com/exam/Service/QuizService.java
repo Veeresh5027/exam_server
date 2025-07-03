@@ -20,4 +20,8 @@ public interface QuizService {
 
     public List<Quiz> getQuizzesOfCategory(Long cid);
 
+    public List<Quiz> getActiveQuizzes();
+
+    public List<Quiz> getActiveQuizzesOfCategory(Category c);
+
 }
