@@ -30,3 +30,18 @@
 * **API Pattern:** RESTful Services
 
 ---
+
+## 📂 Project Architecture
+
+The server is built with a focus on high cohesion and low coupling:
+
+```text
+src/main/java/com/exam/
+├── config/             # App & Security configurations
+├── controller/         # REST API Endpoints (Category, Quiz, Question)
+├── entity/             # Database Models (User, Category, Quiz, Question)
+├── helper/             # Custom utility classes
+├── repository/         # JPA Data Access Layer
+├── service/            # Business Logic Implementation
+└── ExamServerApp       # Application Entry Point
+```
