@@ -19,3 +19,14 @@
 * **Automated Results:** Efficient calculation engine to process student performance instantly upon submission.
 
 ---
+
+## 🛠️ Technical Stack
+
+* **Language:** Java 17
+* **Framework:** Spring Boot 3.x
+* **ORM:** Hibernate / Spring Data JPA
+* **Database:** MySQL
+* **Build Tool:** Maven
+* **API Pattern:** RESTful Services
+
+---
