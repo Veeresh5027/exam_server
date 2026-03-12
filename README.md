@@ -44,5 +44,6 @@ src/main/java/com/exam/
 ├── repository/         # JPA Data Access Layer
 ├── service/            # Business Logic Implementation
 └── ExamServerApp       # Application Entry Point
+
 src/test/java/com/exam/ # Unit and Integration Tests
 ```
