@@ -49,10 +49,21 @@ src/test/java/com/exam/ # Unit and Integration Tests
 ```
 ---
 
-### ⚙️ Setup & Installation
-1. Prerequisites
-JDK 17 or higher
+## ⚙️ Setup & Installation
+# 1. Prerequisites
+* **JDK 17 or higher
 
-MySQL database
+* **MySQL database
 
-Maven
+* **Maven
+# 2. Configuration
+  1.Create a database named exam in MySQL.
+
+  2.Update src/main/resources/application.properties with your database credentials:
+
+  ```text
+spring.datasource.url=jdbc:mysql://localhost:3306/exam
+spring.datasource.username=your_username
+spring.datasource.password=your_password
+spring.jpa.hibernate.ddl-auto=update
+```
