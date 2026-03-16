@@ -55,7 +55,8 @@ src/test/java/com/exam/ # Unit and Integration Tests
 
 * **MySQL database**
 
-* **Maven
+* **Maven**
+  
 # 2. Configuration
   1.Create a database named exam in MySQL.
 
@@ -67,3 +68,13 @@ spring.datasource.username=your_username
 spring.datasource.password=your_password
 spring.jpa.hibernate.ddl-auto=update
 ```
+# 3. Build and Run
+
+```text
+mvn clean install
+mvn spring-boot:run
+```
+---
+## 👨‍💻 Author
+### Veeresh Pattar
+GitHub: Veeresh5027
