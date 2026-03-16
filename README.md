@@ -47,3 +47,12 @@ src/main/java/com/exam/
 
 src/test/java/com/exam/ # Unit and Integration Tests
 ```
+---
+
+### ⚙️ Setup & Installation
+1. Prerequisites
+JDK 17 or higher
+
+MySQL database
+
+Maven
